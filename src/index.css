@@ -1,0 +1,12 @@
+/* tailwind.css or your custom styles file */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .grid-hero {
+    display: grid;
+    grid-template-columns: 1fr 1.6fr; /* Define your custom column widths here */
+    gap: 1rem; /* Adjust the gap between columns as needed */
+  }
+}
