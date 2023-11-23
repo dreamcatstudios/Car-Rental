@@ -9,4 +9,9 @@
     grid-template-columns: 1fr 1.6fr; /* Define your custom column widths here */
     gap: 1rem; /* Adjust the gap between columns as needed */
   }
+  .container {
+    margin: 0 auto !important;
+    max-width: 133rem !important;
+    padding: 0 2.5rem !important;
+  }
 }

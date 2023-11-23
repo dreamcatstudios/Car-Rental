@@ -2,13 +2,13 @@ import React from "react";
 
 export const Navbar = () => {
   return (
-    <header>
+    <header className="container">
       <nav
-        className="flex flex-row m-10
+        className="flex flex-row m-5
        justify-between items-center"
       >
         <img
-          className="w-[12%] h-[12%]"
+          className="max-w-[10%] max-h-[10%]"
           src="/public/logo/logo.png"
           alt="brand-logo"
         />
@@ -51,7 +51,10 @@ export const Navbar = () => {
             </a>
           </li>
           <li>
-            <a className="font-bold " href="btn-primary ">
+            <a
+              className="font-bold px-10 py-4 bg-[#ff4d30] rounded-md"
+              href="btn-primary "
+            >
               Register
             </a>
           </li>
