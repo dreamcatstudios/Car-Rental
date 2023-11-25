@@ -48,7 +48,7 @@ const Faq = () => {
 
   return (
     <section className="container">
-      <div className="flex flex-col mt-12 gap-3">
+      <div className="flex flex-col mt-12 gap-3 bg-white">
         <h1 className="text-xl text-center font-bold">FAQ</h1>
         <h1 className="text-3xl font-bold text-center">
           Frequently Asked Question

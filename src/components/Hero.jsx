@@ -3,14 +3,14 @@ import React from "react";
 const Hero = () => {
   return (
     <section className="relative h-[80vh] w-full align-middle">
-      <div className="container h-full self-center">
+      <div className="container h-full w-full">
         <img
           className="absolute top-[-100px] right-0 z-[-1] hidden sm:block"
           src="/hero/hero-bg.png"
           alt="hero"
         />
-        <div className="h-full w-full grid-hero items-center justify-center m-7 ">
-          <div className="flex flex-col gap-5">
+        <div className="h-full w-full sm:grid-hero items-center justify-center">
+          <div className="h-full flex flex-col justify-center items-center sm:items-start gap-5">
             <h3 className="text-xl sm:text-2xl font-bold text-center sm:text-left">
               Plan your trip now
             </h3>
@@ -22,9 +22,9 @@ const Hero = () => {
               Rent the car of your dreams. Unbeatable prices, unlimited miles,
               flexible pick-up options and much more.
             </p>
-            <div className="flex flex-row gap-4">
+            <div className="flex  sm:flex-row gap-4">
               <a
-                className="px-10 py-4  sm:py-4 bg-[#ff4d30] text-white shadow-lg shadow-orange-200"
+                className="px-10 py-4 sm:py-4 bg-[#ff4d30] text-white shadow-lg shadow-orange-200"
                 href="#"
               >
                 Book Ride

@@ -30,7 +30,7 @@ const Chooseus = () => {
               </a>
             </div>
           </div>
-          <div className="flex flex-col gap-7">
+          <div className="flex flex-col gap-10">
             <div className="flex gap-1">
               <img
                 className="w-[40%] h-[40%]"
