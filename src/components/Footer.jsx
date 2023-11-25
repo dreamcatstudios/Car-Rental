@@ -9,14 +9,7 @@ const Footer = () => {
             href="https://flowbite.com/"
             class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
           >
-            <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              class="h-8"
-              alt="Flowbite Logo"
-            />
-            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">
-              Car Rental
-            </span>
+            <img src="/public/logo/logo.png" class="h-12" alt="Flowbite Logo" />
           </a>
           <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-black sm:mb-0 dark:text-black">
             <li>
@@ -47,7 +40,7 @@ const Footer = () => {
           <a href="https://flowbite.com/" class="hover:underline">
             Car Rental™
           </a>
-          . All Rights Reserved.
+          . Made by Jatin Bhandari 🧑‍💻
         </span>
       </div>
     </footer>

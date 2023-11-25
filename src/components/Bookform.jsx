@@ -14,7 +14,7 @@ const Bookform = () => {
       <div className="bg-white p-10 m-4 shadow-lg translate-y-[-5%]">
         <h1 className="font-bold text-xl">Book a car</h1>
         <div className="flex flex-col gap-10 ">
-          <div className="flex flex-row justify-between items-center">
+          <div className="flex flex-col sm:flex-row justify-between sm:items-center">
             <div className="mt-5">
               <label>Select a Car Type</label>
               <br></br>
@@ -24,6 +24,7 @@ const Bookform = () => {
                 })}
               </select>
             </div>
+
             <div>
               <label>Pick-up</label>
               <br></br>
@@ -44,7 +45,7 @@ const Bookform = () => {
               </select>
             </div>
           </div>
-          <div className="flex flex-row justify-between">
+          <div className="flex flex-col gap-5 sm:gap-0 sm:flex-row justify-between">
             <div>
               <label>Pick Up</label>
               <br></br>
@@ -64,7 +65,6 @@ const Bookform = () => {
               </a>
             </div>
           </div>
-          <div></div>
         </div>
       </div>
     </div>

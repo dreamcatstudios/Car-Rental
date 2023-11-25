@@ -5,7 +5,7 @@ export const Navbar = () => {
     <header className="container">
       <nav className="flex flex-row m-5 justify-between items-center">
         <img
-          className="max-w-[10%] max-h-[10%]"
+          className="max-w-[30%] max-h-[30%] sm:max-w-[10%] sm:max-h-[10%]"
           src="/public/logo/logo.png"
           alt="brand-logo"
         />

@@ -12,7 +12,7 @@ const Testimonials = () => {
           and results, and they're eager to share their positive experiences
           with you.
         </p>
-        <div className="flex-col gap-4 mt-12 ">
+        <div className="flex flex-col gap-5 mt-12 sm:flex-row ">
           <div className="p-12 bg-white shadow-md">
             <h1 className="font-bold text-xl">
               "We rented a car from this website and had an amazing experience!
