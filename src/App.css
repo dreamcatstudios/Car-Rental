@@ -13,3 +13,7 @@ body {
   overflow: auto;
   font-family: Poppins, sans-serif;
 }
+
+p {
+  color: #706f7b;
+}

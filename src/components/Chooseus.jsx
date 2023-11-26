@@ -3,17 +3,19 @@ import React from "react";
 const Chooseus = () => {
   return (
     <section className="container">
-      <div className="mb-32">
+      <div className="max-w-[133rem] p-[2.5rem] mb-32 flex flex-col items-center justify-center">
         <div>
           <img src="/public/chooseUs/main.png" alt="" />
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 items-center justify-center ">
-          <div className="flex flex-col justify-center items-center mb-10 gap-5">
-            <h1 className="font-bold  text-center">Why Choose Us</h1>
-            <h1 className="font text-3xl font-bold text-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 items-center justify-center sm:justify-start ">
+          <div className="flex flex-col justify-center items-center mb-10 gap-5 sm:justify-start sm:items-start">
+            <h1 className="font-bold  text-center sm:text-left sm:text-xl">
+              Why Choose Us
+            </h1>
+            <h1 className="font text-3xl font-bold text-center sm:text-5xl sm:text-left">
               Best valued deals you will ever find
             </h1>
-            <p className="text-center text-xs">
+            <p className="text-center sm:text-left max-w-xl ">
               Discover the best deals you'll ever find with our unbeatable
               offers. We're dedicated to providing you with the best value for
               your money, so you can enjoy top-quality services and products
@@ -33,13 +35,15 @@ const Chooseus = () => {
           <div className="flex flex-col gap-10">
             <div className="flex gap-1">
               <img
-                className="w-[40%] h-[40%]"
+                className="w-[40%] h-[40%]  sm:w-[20%] sm:h-[20%]"
                 src="/public/chooseUs/icon1.png"
                 alt=""
               />
               <div>
-                <h1 className="font-bold">Cross Country Drive</h1>
-                <p className="text-xs">
+                <h1 className="font-bold text-xl sm:text-2xl">
+                  Cross Country Drive
+                </h1>
+                <p className="">
                   Take your driving experience to the next level with our
                   top-notch vehicles for your cross-country adventures.
                 </p>
@@ -47,13 +51,15 @@ const Chooseus = () => {
             </div>
             <div className="flex gap-1">
               <img
-                className="w-[40%] h-[40%]"
+                className="w-[40%] h-[40%]  sm:w-[20%] sm:h-[20%]"
                 src="/public/chooseUs/icon2.png"
                 alt=""
               />
               <div>
-                <h1 className="font-bold">All Inclusive Pricing</h1>
-                <p className="text-xs">
+                <h1 className="font-bold text-xl sm:text-2xl">
+                  All Inclusive Pricing
+                </h1>
+                <p className="">
                   Take your driving experience to the next level with our
                   top-notch vehicles for your cross-country adventures.
                 </p>
@@ -61,13 +67,15 @@ const Chooseus = () => {
             </div>
             <div className="flex gap-1">
               <img
-                className="w-[40%] h-[40%]"
+                className="w-[40%] h-[40%] sm:w-[20%] sm:h-[20%]"
                 src="/public/chooseUs/icon3.png"
                 alt=""
               />
               <div>
-                <h1 className="font-bold">No Hidden Charges</h1>
-                <p className="text-xs">
+                <h1 className="font-bold text-xl sm:text-2xl">
+                  No Hidden Charges
+                </h1>
+                <p className="">
                   Take your driving experience to the next level with our
                   top-notch vehicles for your cross-country adventures.
                 </p>

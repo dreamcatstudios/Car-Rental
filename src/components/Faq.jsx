@@ -47,40 +47,42 @@ const Faq = () => {
   };
 
   return (
-    <section className="container">
-      <div className="flex flex-col mt-12 gap-3 bg-white">
-        <h1 className="text-xl text-center font-bold">FAQ</h1>
-        <h1 className="text-3xl font-bold text-center">
-          Frequently Asked Question
-        </h1>
-        <p className="text-center">
-          Frequently Asked Questions About the Car Rental Booking Process on Our
-          Website: Answers to Common Concerns and Inquiries.
-        </p>
-      </div>
-      <div className="mt-14">
-        {accordionContent.map((item, index) => {
-          return (
-            <div className="shadow-lg ">
-              <div
-                className={
-                  click[index]
-                    ? "bg-[#ff4d30] p-4 shadow-lg text-white"
-                    : "bg-white p-4 border"
-                }
-              >
-                <h1 onClick={() => handleClick(index)}>{item.question}</h1>
+    <section className="container shadow-lg ">
+      <div className="w-full h-full bg-white flex flex-col justify-center items-center  pt-8 pb-32">
+        <div className="flex flex-col mt-12 gap-3 bg-white ">
+          <h1 className="text-xl text-center font-bold">FAQ</h1>
+          <h1 className="text-4xl sm:text-5xl font-bold text-center">
+            Frequently Asked Question
+          </h1>
+          <p className="text-center max-w-2xl">
+            Frequently Asked Questions About the Car Rental Booking Process on
+            Our Website: Answers to Common Concerns and Inquiries.
+          </p>
+        </div>
+        <div className="mt-14 max-w-5xl">
+          {accordionContent.map((item, index) => {
+            return (
+              <div className="shadow-lg ">
+                <div
+                  className={
+                    click[index]
+                      ? "bg-[#ff4d30] p-4 shadow-lg text-white"
+                      : "bg-white p-4 border"
+                  }
+                >
+                  <h1 onClick={() => handleClick(index)}>{item.question}</h1>
+                </div>
+                <div
+                  className={
+                    click[index] ? accordion["hover"] : accordion["normal"]
+                  }
+                >
+                  <p>{item.answer}</p>
+                </div>
               </div>
-              <div
-                className={
-                  click[index] ? accordion["hover"] : accordion["normal"]
-                }
-              >
-                <p>{item.answer}</p>
-              </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
     </section>
   );

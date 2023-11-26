@@ -3,9 +3,9 @@ import React from "react";
 export const Navbar = () => {
   return (
     <header className="container">
-      <nav className="flex flex-row m-5 justify-between items-center">
+      <nav className="flex flex-row mt-6 sm:m-8 justify-between items-center">
         <img
-          className="max-w-[30%] max-h-[30%] sm:max-w-[10%] sm:max-h-[10%]"
+          className="max-w-[40%] max-h-[40%] sm:max-w-[10%] sm:max-h-[10%]"
           src="/public/logo/logo.png"
           alt="brand-logo"
         />
