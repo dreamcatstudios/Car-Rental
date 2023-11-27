@@ -169,7 +169,9 @@ const Pickcontainer = () => {
                     } else {
                       return (
                         <div className="border border-black grid grid-cols-2">
-                          <div className="border">{key}</div>
+                          <div className="border">
+                            {key.slice(0, 1).toUpperCase() + key.slice(1)}
+                          </div>
                           <div>{value}</div>
                         </div>
                       );

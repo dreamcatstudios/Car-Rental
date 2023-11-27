@@ -12,7 +12,7 @@ const Chooseus = () => {
             <h1 className="font-bold  text-center sm:text-left sm:text-xl">
               Why Choose Us
             </h1>
-            <h1 className="font text-3xl font-bold text-center sm:text-5xl sm:text-left">
+            <h1 className="font text-3xl font-bold text-center sm:text-5xl sm:text-left max-w-xl">
               Best valued deals you will ever find
             </h1>
             <p className="text-center sm:text-left max-w-xl ">
