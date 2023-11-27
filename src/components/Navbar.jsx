@@ -1,62 +1,62 @@
 import React from "react";
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
     <header className="container">
       <nav className="flex flex-row mt-6 sm:m-8 justify-between items-center">
         <img
           className="max-w-[40%] max-h-[40%] sm:max-w-[10%] sm:max-h-[10%]"
-          src="/public/logo/logo.png"
+          src="/logo/logo.png"
           alt="brand-logo"
         />
-        <ul className="hidden md:flex flex-row gap-4">
+        <ul className="hidden lg:flex flex-row gap-4">
           <li>
-            <a className="font-bold " href="#">
+            <a className="font-bold  hover:text-[#ff4d30]" href="#">
               Home
             </a>
           </li>
           <li>
-            <a className="font-bold " href="#">
+            <a className="font-bold  hover:text-[#ff4d30]" href="#">
               About
             </a>
           </li>
           <li>
-            <a className="font-bold " href="#">
+            <a className="font-bold  hover:text-[#ff4d30]" href="#">
               Vehicle Models
             </a>
           </li>
           <li>
-            <a className="font-bold " href="#">
+            <a className="font-bold  hover:text-[#ff4d30]" href="#">
               Testimonials
             </a>
           </li>
           <li>
-            <a className="font-bold " href="#">
+            <a className="font-bold hover:text-[#ff4d30]" href="#">
               Our Team
             </a>
           </li>
           <li>
-            <a className="font-bold " href="#">
+            <a className="font-bold  hover:text-[#ff4d30]" href="#">
               Contact
             </a>
           </li>
         </ul>
-        <ul className="hidden md:flex gap-4">
+        <ul className="hidden lg:flex gap-4">
           <li>
-            <a className="font-bold " href="#">
+            <a className="font-bold  hover:text-[#ff4d30]" href="#">
               Sign In
             </a>
           </li>
           <li>
             <a
-              className="font-bold px-10 py-4 bg-[#ff4d30] rounded-md text-white"
+              className="font-bold px-10 py-4 bg-[#ff4d30] rounded-md text-white hover:bg-[#ff3d20]"
               href="btn-primary "
             >
               Register
             </a>
           </li>
         </ul>
-        <div className="block md:hidden">
+        <div className="block lg:hidden">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="30"
@@ -78,3 +78,5 @@ export const Navbar = () => {
     </header>
   );
 };
+
+export default Navbar;

@@ -13,7 +13,7 @@ const Planselection = () => {
       </div>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 flex-wrap mt-12">
         <div className="flex flex-col text-center  items-center p-8">
-          <img className="w-32 sm:w-40" src="/public/plan/icon1.png" alt="" />
+          <img className="w-32 sm:w-40" src="/plan/icon1.png" alt="" />
           <h1 className="text-2xl font-bold">Select Car</h1>
           <p>
             We offers a big range of vehicles for all your driving needs. We
@@ -21,7 +21,7 @@ const Planselection = () => {
           </p>
         </div>
         <div className="flex flex-col text-center  items-center  p-8">
-          <img className="w-32 sm:w-40" src="/public/plan/icon2.png" alt="" />
+          <img className="w-32 sm:w-40" src="/plan/icon2.png" alt="" />
           <h1 className="text-2xl font-bold">Contact Operator</h1>
           <p>
             Our knowledgeable and friendly operators are always ready to help
@@ -29,7 +29,7 @@ const Planselection = () => {
           </p>
         </div>
         <div className="flex flex-col text-center  items-center  p-8">
-          <img className="w-32 sm:w-40" src="/public/plan/icon3.png" alt="" />
+          <img className="w-32 sm:w-40" src="/plan/icon3.png" alt="" />
           <h1 className="text-2xl font-bold">Let's Drive</h1>
           <p>
             Whether you're hitting the open road, we've got you covered with our

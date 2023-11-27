@@ -5,14 +5,17 @@ import Downlaod from "./components/Download";
 import Faq from "./components/Faq";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
-import { Navbar } from "./components/Navbar";
+import Navbar from "./components/Navbar";
 import Pickcontainer from "./components/Pickcontainer";
 import Planselection from "./components/Planselection";
 import Testimonials from "./components/Testimonials";
+import "./App.css";
+import Modal from "./components/Modal";
 
 function App() {
   return (
-    <>
+    <div>
+      <Modal />
       <Navbar />
       <Hero />
       <Bookform />
@@ -24,7 +27,7 @@ function App() {
       <Faq />
       <Downlaod />
       <Footer />
-    </>
+    </div>
   );
 }
 

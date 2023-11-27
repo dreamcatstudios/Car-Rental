@@ -5,7 +5,7 @@ const Chooseus = () => {
     <section className="container">
       <div className="max-w-[133rem] p-[2.5rem] mb-32 flex flex-col items-center justify-center">
         <div>
-          <img src="/public/chooseUs/main.png" alt="" />
+          <img src="/chooseUs/main.png" alt="" />
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 items-center justify-center sm:justify-start ">
           <div className="flex flex-col justify-center items-center mb-10 gap-5 sm:justify-start sm:items-start">
@@ -25,7 +25,7 @@ const Chooseus = () => {
             </p>
             <div>
               <a
-                className="px-5 py-3 bg-[#ff4d30] text-white shadow-lg "
+                className="px-5 py-3 bg-[#ff4d30]  shadow-md shadow-[#fac7bd] hover:shadow-[#ff4d30] text-white "
                 href=""
               >
                 Find Details
@@ -36,7 +36,7 @@ const Chooseus = () => {
             <div className="flex gap-1">
               <img
                 className="w-[40%] h-[40%]  sm:w-[20%] sm:h-[20%]"
-                src="/public/chooseUs/icon1.png"
+                src="/chooseUs/icon1.png"
                 alt=""
               />
               <div>
@@ -52,7 +52,7 @@ const Chooseus = () => {
             <div className="flex gap-1">
               <img
                 className="w-[40%] h-[40%]  sm:w-[20%] sm:h-[20%]"
-                src="/public/chooseUs/icon2.png"
+                src="/chooseUs/icon2.png"
                 alt=""
               />
               <div>
@@ -68,7 +68,7 @@ const Chooseus = () => {
             <div className="flex gap-1">
               <img
                 className="w-[40%] h-[40%] sm:w-[20%] sm:h-[20%]"
-                src="/public/chooseUs/icon3.png"
+                src="/chooseUs/icon3.png"
                 alt=""
               />
               <div>

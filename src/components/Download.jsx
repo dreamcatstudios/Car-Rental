@@ -18,18 +18,18 @@ const Download = () => {
           <div className="flex gap-4">
             <img
               className="w-[80%] sm:w-[25%]"
-              src="/public/download/googleapp.svg"
+              src="/download/googleapp.svg"
               alt=""
             />
             <img
               className="w-[80%] sm:w-[25%]"
-              src="/public/download/appstore.svg"
+              src="/download/appstore.svg"
               alt=""
             />
           </div>
         </div>
         <div>
-          <img src="/public/" alt="" />
+          <img src="/" alt="" />
         </div>
       </div>
     </section>

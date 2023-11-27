@@ -4,7 +4,7 @@ const Pickcontainer = () => {
   const carData = [
     {
       id: 1,
-      image: "/public/cars-big/audia1.jpg",
+      image: "/cars-big/audia1.jpg",
       name: "Audi A1 S-Line",
       mark: "A1",
       year: "2012",
@@ -17,7 +17,7 @@ const Pickcontainer = () => {
     },
     {
       id: 2,
-      image: "/public/cars-big/benz.jpg",
+      image: "/cars-big/benz.jpg",
       name: "VW Golf 6",
       mark: "Volkswagen",
       year: "2008",
@@ -30,7 +30,7 @@ const Pickcontainer = () => {
     },
     {
       id: 3,
-      image: "/public/cars-big/bmw320.jpg",
+      image: "/cars-big/bmw320.jpg",
       name: "Toyota Camry",
       mark: "Toyota",
       year: "2006",
@@ -43,7 +43,7 @@ const Pickcontainer = () => {
     },
     {
       id: 4,
-      image: "/public/cars-big/golf6.jpg",
+      image: "/cars-big/golf6.jpg",
       name: "BMW 320 Modernline",
       mark: "BMW",
       year: "2012",
@@ -56,7 +56,7 @@ const Pickcontainer = () => {
     },
     {
       id: 5,
-      image: "/public/cars-big/passatcc.jpg",
+      image: "/cars-big/passatcc.jpg",
       name: "Benz C Class",
       mark: "Mercedes",
       year: "2006",
@@ -69,7 +69,7 @@ const Pickcontainer = () => {
     },
     {
       id: 6,
-      image: "/public/cars-big/toyotacamry.jpg",
+      image: "/cars-big/toyotacamry.jpg",
       name: "Passat CC",
       mark: "Volkswagen",
       year: "2008",
@@ -150,7 +150,7 @@ const Pickcontainer = () => {
           <div className="flex flex-col gap-4 justify-center items-center">
             <div className="border bottom-0 w-full">
               <div className="w-full">
-                <h1 className="font-bold text-white bg-[#ff4d30] text-center">
+                <h1 className="font-bold text-white bg-[#ff4d30] text-center py-3">
                   $45/ rent per day
                 </h1>
               </div>

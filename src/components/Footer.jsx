@@ -9,7 +9,7 @@ const Footer = () => {
             href="https://flowbite.com/"
             class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
           >
-            <img src="/public/logo/logo.png" class="h-12" alt="Flowbite Logo" />
+            <img src="/logo/logo.png" class="h-12" alt="Flowbite Logo" />
           </a>
           <ul class="flex flex-wrap items-center mb-6  font-medium text-black sm:mb-0 dark:text-black">
             <li>

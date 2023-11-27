@@ -5,15 +5,32 @@
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  scrollbar-color: #ff4d30 #fff;
-  scrollbar-width: thin;
 }
 
 body {
   overflow: auto;
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 p {
   color: #706f7b;
+}
+
+/* Scrollbar Styling for Firefox */
+body {
+  scrollbar-color: #ff4d30 #fff;
+  scrollbar-width: thin;
+}
+
+/* Scrollbar Styling for Webkit-based Browsers (Chrome, Safari, etc.) */
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ff4d30;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #fff;
 }
