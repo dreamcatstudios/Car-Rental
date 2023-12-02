@@ -35,7 +35,7 @@ const Chooseus = () => {
           <div className="flex flex-col gap-10">
             <div className="flex gap-1">
               <img
-                className="w-[40%] h-[40%]  sm:w-[20%] sm:h-[20%]"
+                className="w-[90%] h-[90%]  sm:w-[90%] md:w-[50%]"
                 src="/chooseUs/icon1.png"
                 alt=""
               />
@@ -51,7 +51,7 @@ const Chooseus = () => {
             </div>
             <div className="flex gap-1">
               <img
-                className="w-[40%] h-[40%]  sm:w-[20%] sm:h-[20%]"
+                className="w-[90%] h-[90%]  sm:w-[90%] md:w-[50%]"
                 src="/chooseUs/icon2.png"
                 alt=""
               />
@@ -67,7 +67,7 @@ const Chooseus = () => {
             </div>
             <div className="flex gap-1">
               <img
-                className="w-[40%] h-[40%] sm:w-[20%] sm:h-[20%]"
+                className="w-[90%] h-[90%] sm:w-[90%] md:w-[50%]"
                 src="/chooseUs/icon3.png"
                 alt=""
               />

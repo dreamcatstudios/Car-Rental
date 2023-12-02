@@ -5,7 +5,7 @@ const Navbar = () => {
     <header className="container">
       <nav className="flex flex-row mt-6 sm:m-8 justify-between items-center">
         <img
-          className="max-w-[40%] max-h-[40%] sm:max-w-[10%] sm:max-h-[10%]"
+          className="max-w-[30%]  sm:max-w-[20%]  md:max-w-[10%]"
           src="/logo/logo.png"
           alt="brand-logo"
         />
@@ -50,7 +50,7 @@ const Navbar = () => {
           <li>
             <a
               className="font-bold px-10 py-4 bg-[#ff4d30] rounded-md text-white hover:bg-[#ff3d20]"
-              href="btn-primary "
+              href="/"
             >
               Register
             </a>

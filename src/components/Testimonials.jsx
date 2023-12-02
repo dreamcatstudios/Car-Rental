@@ -19,7 +19,7 @@ const Testimonials = () => {
         <div className="flex flex-col gap-5 mt-12 mb-12 sm:flex-row  ">
           <div className="p-12 bg-white shadow-md">
             <h1 className="font-bold text-xl">
-              "We rented a car from this website and had an amazing experience!
+              "I rented a car from this website and had an amazing experience!
               The booking was easy and the rental rates were very affordable. "
             </h1>
             <div className="flex">
@@ -27,15 +27,14 @@ const Testimonials = () => {
                 <img src="" alt="" />
               </div>
               <div>
-                <h1 className="font-bold text-xl">Parry Hotter</h1>
-                <p>Belgrade</p>
+                <p>- Jatin Bhandari</p>
               </div>
             </div>
           </div>
 
           <div className="p-12 bg-white shadow-md">
             <h1 className="font-bold text-xl">
-              "We rented a car from this website and had an amazing experience!
+              "I rented a car from this website and had an amazing experience!
               The booking was easy and the rental rates were very affordable. "
             </h1>
             <div className="flex">
@@ -43,8 +42,7 @@ const Testimonials = () => {
                 <img src="" alt="" />
               </div>
               <div>
-                <h1 className="font-bold text-xl">Parry Hotter</h1>
-                <p>Belgrade</p>
+                <p>- Jasmine Negi</p>
               </div>
             </div>
           </div>

@@ -29,10 +29,6 @@ const Faq = () => {
     accordionContent.map((item) => item["state"])
   );
 
-  useEffect(() => {
-    console.log("click: ", click);
-  }, []);
-
   const handleClick = (index) => {
     const newClick = [...click];
     newClick[index] = !newClick[index];

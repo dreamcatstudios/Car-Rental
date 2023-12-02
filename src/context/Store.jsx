@@ -13,10 +13,39 @@ const modalSlice = createSlice({
   },
 });
 
-const store = configureStore({
-  reducer: { modal: modalSlice.reducer },
+const bookingSlice = createSlice({
+  name: "booking",
+  initialState: {
+    booking: {
+      cars: "",
+      pickUp: "",
+      dropOff: "",
+      pickUpDate: "",
+      dropOffDate: "",
+      carImg: "",
+    },
+  },
+  reducers: {
+    setBooking(state, action) {
+      state.booking = action.payload;
+    },
+  },
 });
 
-export const modalActions = modalSlice.actions;
+const store = configureStore({
+  reducer: {
+    modal: modalSlice.reducer,
+    booking: bookingSlice.reducer,
+  },
+});
+
+export const { setBooking } = bookingSlice.actions;
+export const { openModal, closeModal } = modalSlice.actions;
+
+// // Subscribe to the store to log changes to the booking data
+// store.subscribe(() => {
+//   const state = store.getState();
+//   console.log("Booking Data Changed:", state.booking.booking);
+// });
 
 export default store;
