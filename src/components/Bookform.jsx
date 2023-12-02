@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { openModal, setBooking } from "../context/Store";
 
-const BookForm = () => {
+const Bookform = () => {
   const [options, setOptions] = useState({
     cars: "VW Golf 6",
     pickUp: "Dehradun",
@@ -172,4 +172,4 @@ const BookForm = () => {
   );
 };
 
-export default BookForm;
+export default Bookform;

@@ -10,7 +10,7 @@ import Planselection from "./components/Planselection";
 import Testimonials from "./components/Testimonials";
 import "./App.css";
 import Modal from "./components/Modal";
-import BookForm from "./components/BookForm";
+import Bookform from "./components/Bookform";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       <Modal />
       <Navbar />
       <Hero />
-      <BookForm />
+      <Bookform />
       <Planselection />
       <Pickcontainer />
       <Banner />
