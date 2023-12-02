@@ -23,12 +23,8 @@ const Download = () => {
             <img
               className="max-w-[60%] sm:w-[25%]"
               src="/download/appstore.svg"
-              alt=""
             />
           </div>
-        </div>
-        <div>
-          <img src="/" alt="" />
         </div>
       </div>
     </section>
