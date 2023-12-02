@@ -1,5 +1,5 @@
 import Banner from "./components/Banner";
-import Bookform from "./components/BookForm";
+import BookForm from "./components/BookForm";
 import Chooseus from "./components/Chooseus";
 import Downlaod from "./components/Download";
 import Faq from "./components/Faq";
@@ -18,7 +18,7 @@ function App() {
       <Modal />
       <Navbar />
       <Hero />
-      <Bookform />
+      <BookForm />
       <Planselection />
       <Pickcontainer />
       <Banner />
