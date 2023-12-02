@@ -15,14 +15,14 @@ const Download = () => {
             <br className="hidden sm:block"></br>
             Led income months itself and houses you.
           </p>
-          <div className="flex gap-4">
+          <div className="flex flex-col sm:flex-row gap-4">
             <img
-              className="w-[80%] sm:w-[25%]"
+              className="max-w-[40%] sm:w-[25%]"
               src="/download/googleapp.svg"
               alt=""
             />
             <img
-              className="w-[80%] sm:w-[25%]"
+              className="w-[40%] max ma sm:w-[25%]"
               src="/download/appstore.svg"
               alt=""
             />
