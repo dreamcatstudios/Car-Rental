@@ -183,7 +183,7 @@ const Pickcontainer = () => {
             <div>
               <a
                 className="px-5 py-3 text-white font-bold bg-[#ff4d30]"
-                href=""
+                href="#"
               >
                 Reserve Now
               </a>

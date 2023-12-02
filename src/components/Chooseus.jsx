@@ -26,7 +26,7 @@ const Chooseus = () => {
             <div>
               <a
                 className="px-5 py-3 bg-[#ff4d30]  shadow-md shadow-[#fac7bd] hover:shadow-[#ff4d30] text-white "
-                href=""
+                href="#"
               >
                 Find Details
               </a>
