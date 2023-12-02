@@ -1,5 +1,4 @@
 import Banner from "./components/Banner";
-import BookForm from "./components/BookForm";
 import Chooseus from "./components/Chooseus";
 import Downlaod from "./components/Download";
 import Faq from "./components/Faq";
@@ -11,6 +10,7 @@ import Planselection from "./components/Planselection";
 import Testimonials from "./components/Testimonials";
 import "./App.css";
 import Modal from "./components/Modal";
+import BookForm from "./components/BookForm";
 
 function App() {
   return (
