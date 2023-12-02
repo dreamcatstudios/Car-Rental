@@ -9,7 +9,7 @@ const Bookform = () => {
     dropOff: "Deharadun",
     pickUpDate: new Date().toISOString().slice(0, 10),
     dropOffDate: new Date().toISOString().slice(0, 10),
-    carImg: "/public/cars-big/bmw-box.png",
+    carImg: "/cars-big/bmw-box.png",
   });
 
   const dispatch = useDispatch();
@@ -31,12 +31,12 @@ const Bookform = () => {
   const carData = [
     {
       cars: {
-        "VW Golf 6": "/public/cars-big/golf6-box.png",
-        "Toyota Camry": "/public/cars-big/toyotacamry.jpg",
-        "Mercedes Benz": "/public/cars-big/benz.jpg",
-        "BMW 320 ModernLine": "/public/cars-big/bmw320.jpg",
-        "Audi A1 S-Line": "/public/cars-big/audi-box.png",
-        "VW Passat CC": "/public/cars-big/passatcc.jpg",
+        "VW Golf 6": "/cars-big/golf6-box.png",
+        "Toyota Camry": "/cars-big/toyotacamry.jpg",
+        "Mercedes Benz": "/cars-big/benz.jpg",
+        "BMW 320 ModernLine": "/cars-big/bmw320.jpg",
+        "Audi A1 S-Line": "/cars-big/audi-box.png",
+        "VW Passat CC": "/cars-big/passatcc.jpg",
       },
       pickUp: ["Dehradun", "Delhi", "Chandigarh", "Mumbai", "Kolkata"],
       dropOff: ["Dehradun", "Delhi", "Chandigarh", "Mumbai", "Kolkata"],
@@ -81,7 +81,7 @@ const Bookform = () => {
               <br />
               <select
                 required
-                className="px-5 py-3 w-full"
+                className="px-5 py-3 w-full border bg-gray-200"
                 name="cars"
                 value={options.cars}
                 onChange={handleSelectChange}
@@ -99,7 +99,7 @@ const Bookform = () => {
               <br />
               <select
                 required
-                className="px-5 py-3 w-full"
+                className="px-5 py-3 w-full border bg-gray-200"
                 name="pickUp"
                 value={options.pickUp}
                 onChange={handleSelectChange}
@@ -117,7 +117,7 @@ const Bookform = () => {
               <br />
               <select
                 required
-                className="px-5 py-3 w-full"
+                className="px-5 py-3 w-full border bg-gray-200"
                 name="dropOff"
                 value={options.dropOff}
                 onChange={handleSelectChange}

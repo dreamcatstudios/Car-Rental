@@ -53,7 +53,7 @@ const Modal = () => {
   // Add styles to disable scroll when the modal is open
   useEffect(() => {
     document.body.style.overflow = modal ? "hidden" : "visible";
-    console.log(data);
+
     // Cleanup: Remove styles when the component is unmounted or when the modal is closed
     return () => {
       document.body.style.overflow = "visible";
