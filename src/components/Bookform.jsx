@@ -74,7 +74,7 @@ const Bookform = () => {
     <section className="container">
       <div className="bg-[url('/book-car/book-bg.png')] p-10 m-4 shadow-lg translate-y-[-5%]">
         <h1 className="font-bold text-xl">Book a car</h1>
-        <div className="flex flex-col gap-10 ">
+        <div className="flex flex-col gap-10 ite ">
           <div className="flex flex-col gap-3 sm:gap-0 sm:flex-row justify-between sm:items-center mt-5 ">
             <div className="">
               <label className="font-bold">Select a Car Type</label>

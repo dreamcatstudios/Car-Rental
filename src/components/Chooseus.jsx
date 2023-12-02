@@ -33,9 +33,9 @@ const Chooseus = () => {
             </div>
           </div>
           <div className="flex flex-col gap-10">
-            <div className="flex gap-5">
+            <div className="flex flex-col items-center md:flex-row gap-5">
               <img
-                className="w-[90%] h-[90%]  sm:w-[90%] md:w-[50%] lg:w-[25%]"
+                className="w-[40%] h-[40%]  sm:w-[90%] md:w-[50%] lg:w-[25%]"
                 src="/chooseUs/icon1.png"
                 alt=""
               />
@@ -49,9 +49,9 @@ const Chooseus = () => {
                 </p>
               </div>
             </div>
-            <div className="flex gap-5">
+            <div className="flex items-center flex-col md:flex-row gap-5">
               <img
-                className="w-[90%] h-[90%]  sm:w-[90%] md:w-[50%] lg:w-[25%]"
+                className="w-[40%] h-[40%]  sm:w-[90%] md:w-[50%] lg:w-[25%]"
                 src="/chooseUs/icon2.png"
                 alt=""
               />
@@ -65,9 +65,9 @@ const Chooseus = () => {
                 </p>
               </div>
             </div>
-            <div className="flex gap-5">
+            <div className="flex items-center flex-col md:flex-row gap-5">
               <img
-                className="w-[90%] h-[90%] sm:w-[90%] md:w-[50%] lg:w-[25%]"
+                className="w-[40%] h-[40%] sm:w-[90%] md:w-[50%] lg:w-[25%]"
                 src="/chooseUs/icon3.png"
                 alt=""
               />
